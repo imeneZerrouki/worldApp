@@ -1,0 +1,24 @@
+.navigation{ /* on commence par le nom de la classe du componenet*/
+    /* tout ce qu'il va decouler ça concernera uniquement ce qu'il y'a dans le component*/
+    margin: 20px 0;/* 20px en haut et en bas, 0 a gauche*/
+    display: flex;
+
+    a{
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+    }
+    .nav-active{
+        &::after {
+            content: "";
+            width: 85%;
+            height: 5px;
+            background: $color-2;
+            position: absolute;
+            bottom: 1px;
+            left: 50%;
+            transform: translateX(-50%);
+
+        }
+    }
+}

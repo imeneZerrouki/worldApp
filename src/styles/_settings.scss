@@ -1,0 +1,24 @@
+/*settings est pour le reglage global reglage pour tout les componenets du projet
+tout les a le body .. etc*/
+$font-1: sans-serif;
+$size-1: 20px;
+$color-1: #61dafb;
+$color-2:#F00;
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: $font-1;
+    font-size: $size-1;
+    background-color: #DDD;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+a:visited{
+    
+}
