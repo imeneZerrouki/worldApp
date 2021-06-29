@@ -8,7 +8,7 @@
     .sort-container{
         display:flex;
         flex-wrap: wrap;
-        height: 25px;
+        height: 10%;
         border-radius: 10px;
         background: rgb(90, 83, 83);
         box-shadow: 0px 3px 3x 0px gray ;
@@ -32,18 +32,6 @@
         margin-right: 55px;
         margin-left: 55px;
     }
-    label{
-        color:$color-1;
-        margin: 5px;
-    }
-    .centerBouton{
-        width: 250px;
-        margin: 10px 0px 0px 10px;
-    }
-    .form{
-        display: flex;
-        justify-content: space-between;
-        margin-left :50px;
-        margin-right :50px;
-    }
+   
+    
 }

@@ -7,16 +7,8 @@ import DeleteIcon from "@material-ui/icons/Delete";
 import SaveIcon from "@material-ui/icons/Save";
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import { makeStyles, ThemeProvider,createMuiTheme } from '@material-ui/core';
-const Countries2 = () => {
-    /* stocker des donnees dans react 'states' les ouk de react */
-   
-    /* data nom de la variable, 
-                        setNom l'element par lequel on passera pour actualiser cette données*/
-    /*const sayGoodBye =() => {
-        setData("Good Bye")
-        a l'interieur du div 
-        {data}
-            <button onClick={sayGoodBye}> Dire au revoir</butto*/
+
+const Countries2 = () => { 
     const[data,setData] = useState([]); /* state c'est tableau */
         /* on creer une requete on la stock dans une state notre data  */
     const [sortedData, setSortedData]=useState([]);
@@ -84,6 +76,8 @@ const Countries2 = () => {
             style={{
                 fontSize: 15,
                 margin:10,
+                left:'50%',
+                transform: 'translateX(-50%)'
             }}
             startIcon={<DeleteIcon/>}
             >
